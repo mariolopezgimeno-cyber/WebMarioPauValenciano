@@ -1,0 +1,121 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color:#222;
+  background: #f4f4f4;
+}
+
+/* Header con color */
+header{
+  background: linear-gradient(135deg, #1f2937, #3b3bbd);
+  color: white;
+  text-align:center;
+  padding: 2rem 1rem;
+}
+
+header h1{
+  font-size: 2.2rem;
+  margin-bottom: .4rem;
+}
+
+header p{
+  opacity: .9;
+}
+
+/* Menú */
+nav{
+  background: #111827;
+  padding: 1rem;
+  text-align:center;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin: 0 .5rem;
+  font-weight:bold;
+  padding: .35rem .7rem;
+  border-radius: 20px;
+  display:inline-block;
+}
+
+nav a:hover{
+  background:#ffd700;
+  color:#111827;
+}
+
+/* Contenido */
+main{
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Secciones */
+section{
+  background:white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+section h2{
+  margin-bottom: 1rem;
+  padding-bottom: .4rem;
+  border-bottom: 4px solid #333;
+}
+
+/* Bloque inicio */
+.intro{
+  border-left: 8px solid #3b3bbd;
+}
+
+/* Bloques de autor con color */
+.autor img{
+  width: 100%;
+  max-width: 450px;
+  display:block;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.15);
+}
+
+.estelles{
+  border-top: 10px solid #ff7a00;
+}
+
+.estelles h2{
+  border-bottom-color: #ff7a00;
+}
+
+.fuster{
+  border-top: 10px solid #00b7c2;
+}
+
+.fuster h2{
+  border-bottom-color: #00b7c2;
+}
+
+/* Comparativa y PAU */
+.comparativa{
+  border-left: 8px solid #7c3aed;
+}
+
+.pau{
+  border-left: 8px solid #22c55e;
+}
+
+footer{
+  text-align:center;
+  padding: 2rem 1rem;
+  background:#111827;
+  color:white;
+  margin-top: 2rem;
+}
